@@ -99,3 +99,26 @@
     margin-left: 330px;
 }
 
+#design-text {
+    margin-left: 230px;
+    margin-top: 5px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: normal;
+}
+
+#development-text {
+    margin-left: 610px;
+    margin-top: -30px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: normal;
+}
+
+#product-text {
+    margin-left: 990px;
+    margin-top: -35px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: normal;
+}
