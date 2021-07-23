@@ -148,3 +148,37 @@
     margin-left: 100px;
     margin-right: 100px;
 }
+
+.contact-image {
+    height: 500px;
+    width: 1340px;
+    padding-top: 50px;
+}
+
+.contact-heading {
+    text-align: center;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: -450px;
+    color: #FFFFFF;
+}
+
+.footer-icons {
+    text-align: center;
+    margin-top: 460px;
+    justify-content: space-evenly;
+    margin-left: 350px;
+    margin-right: 350px;
+    display: flex;
+}
+
+.footer-text {
+    text-align: center;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
