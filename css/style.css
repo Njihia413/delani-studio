@@ -311,7 +311,7 @@
 
 #name {
     margin-left: -500px;
-    margin-top: 40px;
+    margin-top: 0px;
     width:70%;
     position: relative;
 }
@@ -437,10 +437,14 @@
 }
 
 @media (max-width: 768px) {
-    .intro h1 {
+    .intro {
       font-size: 2em;
     }
     .mouse_click {
       padding-top: 80px;
+    }
+
+    .image {
+        width: 565px;
     }
   }
