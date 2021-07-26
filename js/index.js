@@ -1,14 +1,18 @@
 $(".design-icon").click(function(){
     $(".icon-text").toggle();
+    $("#des-text").addClass("visibility");
   });
 
 $(".dev-icon").click(function(){
     $(".icon-text2").toggle();
+    $("#dev-text").addClass("visibility");
   });  
 
 $(".product-icon").click(function(){
     $(".icon-text3").toggle();
+    $("#p-text").addClass("visibility");
   });  
+
   
   $(".div1").hover(function () {
     // over
@@ -105,3 +109,29 @@ $(".div8").hover(function () {
         $(".pn8").removeClass("portfolio-hover-effect");
     }
 );
+
+// Contact Us
+$(".contact-form").submit(function (e) {
+    e.preventDefault();
+
+    //Variable Declaration
+    var name = $("#name").val();
+    var email = $("#email").val();
+    var message = $("#message").val();
+    var emailReg = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/;
+
+    // Check for empty fields
+    if (name == '' || email == '' || message == '') {
+        $("#name-error").html("<p class='error-message'>Name field required.</p>");
+        $("#email-error").html("<p class='error-message'>Email field required.</p>");
+        $("#message-error").html("<p class='error-message'>Message Error.</p>");
+    } else if (email == '' || !emailReg.test(email)) {
+        $("#email-error").html("<p class='error-message'>Please enter a valid email address.</p>");
+    } else {
+        $("#name-error").html("");
+        $("#email-error").html("");
+        $("#message-error").html("");
+        $(".alert-success").text(`${name} we have received your message. Thank you for reaching out to us.`)
+        $(".alert-success").show();
+    }   
+});
