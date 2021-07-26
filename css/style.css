@@ -220,23 +220,72 @@
     margin-top: 80px;
 }
 
-.portfolio-images1 {
-    height: 200px;
-    display: flex;
-    justify-content:space-evenly;
-    margin-left: 130px;
-    margin-right: 130px;
-}
-
-.portfolio-images2 {
-    height: 200px;
-    display: flex;
-    justify-content:space-evenly;
-    margin-top: 30px;
-    margin-left: 130px;
-    margin-right: 130px;
-}
-
+.portfolio-card {
+    position: relative;
+    max-width: 300px;
+    margin-top: 20px;
+    overflow: hidden;
+  }
+  
+  .portfolio-card .portfolio-overlay {
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    -webkit-transition: all 0.4s ease-in-out 0s;
+    -moz-transition: all 0.4s ease-in-out 0s;
+    transition: all 0.4s ease-in-out 0s;
+  }
+  
+  .portfolio-img {
+    width: 100%;
+  }
+  
+  .project-name {
+    position: absolute;
+    padding-left: 3em;
+    padding-right: 3em;
+    width: 80%;
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+  }
+  
+  .project-name h3 {
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: 0.15em;
+    margin-bottom: 0.5em;
+    text-transform: uppercase;
+    border: 3px solid rgb(255, 255, 255);
+    padding: 30px;
+  }
+  
+  .project-name p {
+    color: #fff;
+    font-size: 0.8em;
+  }
+  
+  .fadeIn-bottom {
+    top: 80%;
+  }
+  
+  .portfolio-hover-effect {
+    top: 50%;
+    left: 50%;
+    opacity: 1;
+  }
 .contact-image {
     height: 500px;
     width: 1349px;
