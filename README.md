@@ -28,7 +28,7 @@ There are no known bugs of this project at the moment.
 * Bootstrap
 * jQuery
 # Link to Live Website
-* Link: njihia413.github.io/delani-studio
+* Link: https://Njihia413.github.io/delani-studio
 # Support and contact details
 For any contributions towards this project:
 * Email: maureennjihia468@gmail.com
