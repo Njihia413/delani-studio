@@ -11,6 +11,7 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/style.css">
+        <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     </head>
     <body>
             <!--background image-->
@@ -62,19 +63,56 @@
                 <!--heading-->
                 <p class="what-we-do-heading">What we do</p>
 
-                <!--design icon-->
-                <img src="images/design_icon.png"  class="design-icon" alt="Design icon">
+                <div class="row">
+                    <div class="col-md-4">
+                         <!--design icon-->
+                        <img src="images/design_icon.png"  class="design-icon" alt="Design icon">
 
-                <!--development icon-->
-                <img src="images/dev_icon.png" class="dev-icon" alt="Development icon">
+                        <div class="icon-text">
+                            <h3 id="design-heading">Design</h3>
+                            <p id="design-text">
+                                Our design practice offers a full range of services<br>including brand strategy, interaction and visual design<br>
+                                and user experience testing.<br><br>
+                                Throughout your project , our designers create and<br> implement visual design and workflows, solicit user<br>feedback
+                                and work with you to make sure what gets built<br>is what is needed.
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-4">
+                        <!--development icon-->
+                      <img src="images/dev_icon.png" class="dev-icon" alt="Development icon">
+  
+                      <div class="icon-text2">
+                          <h3 id="development-heading">Development</h3>
+                          <p id="development-text">
+                              All engineers are fluent in the latest enterprise, mobile<br>and web development technologies.<br><br>
+                              They colaborate with your team to write, and improve<br>code on a daily basis, using proven practices 
+                              such as<br>test-driven development and pair programming.
+                          </p>
+                      </div>
+                  </div>
+                    
+                    
+                    <div class="col-md-4">
+                        <!--product management icon-->
+                        <img src="images/product_icon.png" class="product-icon" alt="Product icon">
 
-                <!--product management icon-->
-                <img src="images/product_icon.png" class="product-icon" alt="Product icon">
+                        <div class="icon-text3">
+                            <h3 id="product-heading">Product Management</h3>
+                            <p id="product-text">
+                                Planning and development is iterative.Because we are<br>constantly coding and testing, the products we 
+                                build are<br> always ready to go live.<br><br>
+                                This iterative process allows for changes as business<br>requirements evolve
+                            </p>
+                        </div>        
+                    </div>
+                </div>
 
                 <!--text below what we do icons-->
-                <p id="design-text">Design</p>
-                <p id="development-text">Development</p>
-                <p id="product-text">Product Management</p>
+                <p id="des-text">Design</p>
+                <p id="dev-text">Development</p>
+                <p id="p-text">Product Management</p>
             </div>
 
             <!--portfolio section-->
@@ -124,6 +162,11 @@
 
             <!--footer text-->
             <div class="footer-text">Delani Studio<br>2019</div>
-        <script src="js/index.js" async defer></script>
+
+            <!--jquery script link-->
+            <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+
+            <!--javascript file link-->
+            <script src="js/index.js" async defer></script>
     </body>
 </html>
