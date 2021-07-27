@@ -440,11 +440,54 @@
     .intro {
       font-size: 2em;
     }
-    .mouse_click {
-      padding-top: 80px;
+    .mouse-click {
+      margin-top: 0px;
+      position: relative;
+      margin-left: -330px;
     }
 
     .image {
-        width: 565px;
+        width: 670px;
+    }
+
+    .d-logo {
+        margin-left: 290px;
+    }
+
+    .about-text {
+        font-size: 15px;
+    }
+
+    .services-image {
+        width: 670px;
+    }
+
+    .services-text {
+        font-size: 15px;
+    }
+
+    .design-icon, .dev-icon, .product-icon {
+        padding-top: 20px;
+    }
+
+    #des-text, #dev-text, #p-text {
+        display: none;
+    }
+
+    .portfolio-card {
+        margin-left: 150px;
+    }
+
+    .contact-image {
+        width: 670px;
+    }
+
+    #name {
+        margin-left: 20px;
+    }
+
+    #email {
+        margin-top: 0px;
+        margin-left: 20px;
     }
   }
